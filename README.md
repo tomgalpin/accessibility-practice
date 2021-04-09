@@ -1,3 +1,49 @@
+# Diving Deeper into Accessibility
+A simple App using React with a focus on accessibility.
+
+## Deploy
+- Live @:
+  - From: https://github.com/gitname/react-gh-pages
+
+## Notes
+  1. All tests are in `home.test.js`
+  2. All component styles are in `tabs-container.scss`
+
+## Structure
+    .
+    ├── /public
+    │     └── favicon.ico
+    │     └── index.html
+    │     └── manifest.json
+    │     └── robots.txt
+    ├── /src
+    │     ├──/assets
+    │     │     └── /styles
+    │     │           ├── _colors.scss
+    │     │           ├── _globals.scss
+    │     │           ├── _reset.scss
+    │     │           ├── _styles.scss
+    │     │           └── tabs-container.scss
+    │     ├── /components
+    │     │     ├── tab-list.js
+    │     │     ├── tab-panel.js
+    │     │     ├── tab.js
+    │     │     └── tabs-container.js
+    │     ├── /content
+    │     │     └── tabs-content.js
+    │     ├── /pages
+    │     │     └── /home
+    │     │           ├── home.js
+    │     │           └── home.test.js
+    │     └── index.js
+    ├── package.json
+    └── README.md
+
+
+---
+---
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
