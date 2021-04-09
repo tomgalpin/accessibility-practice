@@ -2,7 +2,7 @@
 A simple App using React with a focus on accessibility.
 
 ## Deploy
-- Live @:
+- Live @: http://tomgalpin.github.io/accessibility-learning
   - From: https://github.com/gitname/react-gh-pages
 
 ## Notes
