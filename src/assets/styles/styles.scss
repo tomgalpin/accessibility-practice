@@ -1,8 +1,4 @@
-// Abstracts
-@import "abstracts/_abstracts-dir";
-
-// Base Styles
-@import "base/_base-dir";
-
-// Layouts
-// @import "layouts/__layouts-dir";
+@import '_reset';
+@import '_colors';
+@import '_globals';
+@import 'tabs-container';

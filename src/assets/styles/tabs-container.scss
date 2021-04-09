@@ -1,0 +1,40 @@
+.tabs {
+  background: $white1;
+  border: 1px solid $black2;
+  box-shadow: 0 1px 3px $black3;
+  margin: 0.5em auto;
+  max-width: 800px;
+  padding: 2em;
+  width: 75%;
+
+  .tablist {
+    border-bottom: 1px solid $blue1;
+    margin: 0;
+    padding: 0;
+  }
+
+  .tablist__tab {
+    background: none;
+    border: 0;
+    color: $black1;
+    font-size: 1em;
+    line-height: 1.5;
+    margin: 0 0 -1px;
+    padding: 1em 2em;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    border-top: 2px solid transparent;
+
+    &.active {
+      border-left: 1px solid $blue1;
+      border-right: 1px solid $blue1;
+      border-top: 2px solid $red1;
+      background-color: $white1;
+    }
+  }
+
+  .tabs__panel {
+    margin-top: 2em;
+    margin-left: 2em;
+  }
+}
